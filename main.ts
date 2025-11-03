@@ -1,5 +1,11 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showString("Lucas")
+	
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showIcon(IconNames.Heart)
+})
+input.onButtonPressed(Button.B, function () {
+	
 })
 basic.forever(function () {
 	
